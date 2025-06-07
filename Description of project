@@ -1,0 +1,10 @@
+A clock in Python can be implemented using various methods, depending on whether you want a simple digital clock, an analog clock, or a real-time updating clock.
+
+1. Digital Clock using tkinter
+You can create a real-time digital clock using Python's tkinter module and time module.
+
+Description:
+- Uses tkinter for GUI.
+- Fetches current time using time.strftime().
+- Updates the clock every second using label.after(1000, update_clock).
+
